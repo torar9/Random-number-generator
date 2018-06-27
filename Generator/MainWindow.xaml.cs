@@ -18,12 +18,12 @@ namespace Generator
         {
             GeneratorE generator = new GeneratorE(lowAmout.Text, highAmout.Text, NumberAmout.Text);
 
-            GeneratedNumber.Text = generator.Generate(); //Zápis vygenerovaného číslo(generator vrací int, textbox požaduje string)
+            GeneratedNumber.Text = generator.Generate();
         }
 
         private void WAbout(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Author: Tomáš Silber"); // Naposled upraveno 10.7.2015 16:45
+            MessageBox.Show("Author: Tomáš Silber"); // Last time edited: 10.7.2015 16:45
         }
 
         
