@@ -17,7 +17,7 @@ namespace Generator
         {
             try
             {
-                this.lowAmout   = int.Parse(lowAmout);
+                this.lowAmout    = int.Parse(lowAmout);
                 this.highAmout   = int.Parse(highAmout);
                 this.numberAmout = sbyte.Parse(numberAmout);
 
